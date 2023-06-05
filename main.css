@@ -1,2 +1,23 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+body{
+    font-family: 'Overpass', sans-serif;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:500px;
+}
+.main-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width:400px;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+}
