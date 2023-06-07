@@ -56,3 +56,9 @@ div{
     background-color: hsl(213, 19%, 18%);
     color: white;
 }
+.thank-you-header{
+    margin: 20px auto;
+}
+.thank-you-illustration{
+    margin: 40px auto;
+}
