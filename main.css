@@ -42,3 +42,17 @@ div{
     width:350px;
     color:hsl(216, 12%, 54%);
 }
+
+/*Secondary container*/
+.secondary-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    border: 2px solid black;
+    border-radius: 25px;
+    width:450px;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+}
