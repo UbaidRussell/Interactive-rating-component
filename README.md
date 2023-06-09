@@ -19,6 +19,8 @@ This is my solution to the [Interactive rating component challenge on Frontend M
 
 ## Overview
 
+Interactive thank you page for site feedback: "Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!"
+
 ### The challenge
 
 Users should be able to:
