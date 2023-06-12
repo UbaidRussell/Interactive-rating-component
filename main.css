@@ -73,3 +73,68 @@ div{
 [type='radio'] {
     display: none; 
 }
+.number-selection{
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top:40px;
+}
+.button-one{
+    display: inline;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.button-one:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+.button-two{
+    display: inline;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50%;
+}
+.button-three{
+    display: inline;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50%;
+}
+.button-four{
+    display: inline;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50%;
+}
+.button-five{
+    display: inline;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50%;
+}
+
+
+.submit-button{
+    position: relative;
+    margin: 40px auto;
+    padding-left:100px;
+    padding-right:100px;
+}
