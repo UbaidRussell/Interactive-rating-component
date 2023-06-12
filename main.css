@@ -83,7 +83,6 @@ div{
     padding-top:40px;
 }
 .button-one{
-    display: inline;
     padding-top:20px;
     padding-bottom: 20px;
     padding-left: 30px;
@@ -95,7 +94,6 @@ div{
     background-color: hsl(25, 97%, 53%);
 }
 .button-two{
-    display: inline;
     padding-top:20px;
     padding-bottom: 20px;
     padding-left: 30px;
@@ -104,7 +102,6 @@ div{
     border-radius: 50%;
 }
 .button-three{
-    display: inline;
     padding-top:20px;
     padding-bottom: 20px;
     padding-left: 30px;
@@ -113,7 +110,6 @@ div{
     border-radius: 50%;
 }
 .button-four{
-    display: inline;
     padding-top:20px;
     padding-bottom: 20px;
     padding-left: 30px;
@@ -122,7 +118,6 @@ div{
     border-radius: 50%;
 }
 .button-five{
-    display: inline;
     padding-top:20px;
     padding-bottom: 20px;
     padding-left: 30px;
