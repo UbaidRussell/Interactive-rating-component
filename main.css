@@ -73,6 +73,9 @@ div{
 [type='radio'] {
     display: none; 
 }
+input[type="radio"]:checked + label {
+    background-color:hsl(25, 97%, 53%);
+}
 .number-selection{
     width: 450px;
     display: flex;
