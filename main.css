@@ -68,3 +68,8 @@ div{
     text-align: center;
     width:350px;
 }
+
+/*This we use to remove the button on the side of our options*/
+[type='radio'] {
+    display: none; 
+}
