@@ -56,6 +56,14 @@ div{
     background-color: hsl(213, 19%, 18%);
     color: white;
     margin-top:50px;
+    padding:20px;
+}
+.display-choice-section{
+    background-color: hsl(210, 13%, 12%);
+    padding:10px;
+    border-radius: 25px;
+    margin-left: 135px;
+    color: hsl(25, 97%, 53%);
 }
 .thank-you-header{
     margin: 20px auto;
@@ -161,3 +169,5 @@ input[type="radio"]:checked + label {
     background-color: whitesmoke;
     color: hsl(25, 97%, 53%);
 }
+
+
