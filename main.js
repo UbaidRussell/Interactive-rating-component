@@ -7,6 +7,9 @@ let secondaryContainer = document.getElementsByClassName('secondary-container');
 
 console.log(radioChoices);
 hideSecondaryContainer();
+window.alert('Just like that, we got it done 🥂')
+
+
 //Runs when the form is submitted
 form.onsubmit = function(e){
     e.preventDefault();
