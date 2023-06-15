@@ -1,4 +1,4 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; display: none; }
 .attribution a { color: hsl(228, 45%, 44%); }
 body{
     font-family: 'Overpass', sans-serif;
@@ -62,14 +62,16 @@ div{
     background-color: hsl(210, 13%, 12%);
     padding:10px;
     border-radius: 25px;
-    margin-left: 135px;
+    text-align: center;
     color: hsl(25, 97%, 53%);
+    width: 200px;
+    margin-left: 100px;
 }
 .thank-you-header{
-    margin: 20px auto;
+    margin: 40px 125px;
 }
 .thank-you-illustration{
-    margin: 40px auto;
+    margin: 40px 125px;
 }
 .thank-you-para{
     margin: 20px auto;
