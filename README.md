@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/screenshot.png)
 
 ### Links
 
@@ -50,22 +50,58 @@ Users should be able to:
 
 
 ### What I learned
+On this project we learned a lot of DOM manipulation. We learned how to select elements, change their values, and hide and show them. We also learned how to use the preventDefault() method to prevent the default behavior of the form. this is the code we used to do all of that:
 
-```html
-<h1>We're going to add some HTML here</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+let form = document.querySelector('form');
+let mainContainer = document.getElementsByClassName('main-container');
+let radioChoices = document.querySelectorAll('input[type="radio"]');
+let radioChoice; 
+let userAnswer = document.getElementById('user-answer');
+let secondaryContainer = document.getElementsByClassName('secondary-container');
+
+console.log(radioChoices);
+hideSecondaryContainer();
+window.alert('Just like that, we got it done 🥂')
+
+
+//Runs when the form is submitted
+form.onsubmit = function(e){
+    e.preventDefault();
+    radioChoice = document.querySelector('input[type="radio"]:checked');
+    console.log(radioChoice.value);
+    changeNumber();
+    hideMainContainer();
+    showSecondaryContainer();
+}
+
+//Change the number in the secondary container
+function changeNumber (){
+    userAnswer.innerHTML = radioChoice.value;
+}
+
+//Hide the main container
+function hideMainContainer(){
+    mainContainer[0].style.display = 'none';
+}
+//Show the main container
+function showMainContainer(){
+    mainContainer[0].style.display = 'block';
+}
+
+//Hide the secondary container
+function hideSecondaryContainer(){
+    secondaryContainer[0].style.display = 'none';
+}
+//Show the secondary container
+function showSecondaryContainer(){
+    secondaryContainer[0].style.display = 'block';
 }
 ```
 
 ### Continued development
+
+We will continue working on this site by making it more responsive and adding more features to it. We will also try to make it more accessible by adding aria labels and other accessibility features.
 
 ### Useful resources
 
