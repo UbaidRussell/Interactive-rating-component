@@ -1,11 +1,10 @@
-const form = document.querySelector('form');
-const mainContainer = document.getElementsByClassName('main-container');
-const radioChoices = document.querySelectorAll('input[type="radio"]');
+let form = document.querySelector('form');
+let mainContainer = document.getElementsByClassName('main-container');
+let radioChoices = document.querySelectorAll('input[type="radio"]');
 let radioChoice; 
 let userAnswer = document.getElementById('user-answer');
 
 console.log(radioChoices);
-
 //Runs when the form is submitted
 form.onsubmit = function(e){
     e.preventDefault();
