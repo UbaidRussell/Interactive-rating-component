@@ -1,9 +1,17 @@
+// Form 
 let form = document.querySelector('form');
+
+//Containers
 let mainContainer = document.getElementsByClassName('main-container');
+let secondaryContainer = document.getElementsByClassName('secondary-container');
+
+//Radio choices and the choice the user made
 let radioChoices = document.querySelectorAll('input[type="radio"]');
 let radioChoice; 
+
+//Usre answer
 let userAnswer = document.getElementById('user-answer');
-let secondaryContainer = document.getElementsByClassName('secondary-container');
+
 
 console.log(radioChoices);
 hideSecondaryContainer();
