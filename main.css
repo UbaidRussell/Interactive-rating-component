@@ -179,9 +179,9 @@ input[type="radio"]:checked + label {
     /*Code for the main container on mobile devices*/
     .main-container{
         width: 360px;
-        height: 650px;
         padding: 0px;
         height: 600px;
+        padding-bottom:50px;
     }
     .number-selection{
         width: 350px;
@@ -197,6 +197,7 @@ input[type="radio"]:checked + label {
             position: relative;
             font-size: 18px;
             margin: 40px;
+            margin-top:50px;
             margin-left:15px;
             padding-left:130px;
             padding-right:130px;
@@ -211,7 +212,6 @@ input[type="radio"]:checked + label {
         width: 360px;
         height: 650px;
         padding: 0px;
-        height: 600px;
     }
     .display-choice-section{
         width: 300px;
