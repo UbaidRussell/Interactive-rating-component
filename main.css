@@ -176,6 +176,7 @@ input[type="radio"]:checked + label {
 /*This is for the mobile view*/
 @media only screen and (min-width:100px) and (max-width: 600px){ 
 
+    /*Code for the main container on mobile devices*/
     .main-container{
         width: 360px;
         padding: 0px;
@@ -201,5 +202,23 @@ input[type="radio"]:checked + label {
             padding-top:20px;
             padding-bottom: 20px;
             background-color: hsl(25, 97%, 53%);
+    }
+
+
+    /*Code for second container on mobile deveices*/
+    .secondary-container{
+        width: 360px;
+        padding: 0px;
+        height: 600px;
+    }
+    .display-choice-section{
+        width: 300px;
+        margin-left: 30px;
+    }
+    .thank-you-header{
+        margin: 50px 25%;
+    }
+    .thank-you-illustration{
+        margin: 50px 25%;
     }
 }
