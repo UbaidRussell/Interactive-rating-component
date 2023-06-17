@@ -179,6 +179,7 @@ input[type="radio"]:checked + label {
     /*Code for the main container on mobile devices*/
     .main-container{
         width: 360px;
+        height: 650px;
         padding: 0px;
         height: 600px;
     }
@@ -208,6 +209,7 @@ input[type="radio"]:checked + label {
     /*Code for second container on mobile deveices*/
     .secondary-container{
         width: 360px;
+        height: 650px;
         padding: 0px;
         height: 600px;
     }
