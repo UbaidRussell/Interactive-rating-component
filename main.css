@@ -174,7 +174,32 @@ input[type="radio"]:checked + label {
 
 
 /*This is for the mobile view*/
-@media only screen and (min-width:100px) and (max-width: 800px){ 
+@media only screen and (min-width:100px) and (max-width: 600px){ 
 
-    
+    .main-container{
+        width: 360px;
+        padding: 0px;
+        height: 600px;
+    }
+    .number-selection{
+        width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        margin-right: 10px;
+    }
+    .question-feedback{
+        width: 300px;
+    }
+    .submit-button{
+            position: relative;
+            font-size: 18px;
+            margin: 40px;
+            margin-left:15px;
+            padding-left:130px;
+            padding-right:130px;
+            padding-top:20px;
+            padding-bottom: 20px;
+            background-color: hsl(25, 97%, 53%);
+    }
 }
