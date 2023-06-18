@@ -13,6 +13,7 @@ div{
 }
 .main-container{
     margin: auto;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -21,7 +22,6 @@ div{
     width:450px;
     background: linear-gradient(hsl(213, 19%, 18%),hsl(216, 12%, 8%));
     color: white;
-    margin-top: 50px;
     padding:20px;
 }
 .star{
@@ -182,6 +182,7 @@ input[type="radio"]:checked + label {
         padding: 0px;
         height: 600px;
         padding-bottom:50px;
+        margin-top: 0px;
     }
     .number-selection{
         width: 350px;
