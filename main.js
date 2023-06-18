@@ -9,7 +9,7 @@ let secondaryContainer = document.getElementsByClassName('secondary-container');
 let radioChoices = document.querySelectorAll('input[type="radio"]');
 let radioChoice; 
 
-//Usre answer
+//User answer
 let userAnswer = document.getElementById('user-answer');
 
 
