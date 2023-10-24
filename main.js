@@ -14,7 +14,7 @@ let userAnswer = document.getElementById('user-answer');
 
 
 //Part of what we're working on at the bottom of this page 🥊
-let submitButton = document.getElementsByClassName('submit-button');
+let submitButton = document.getElementsByClassName('submit-button')[0];
 
 
 console.log(radioChoices);
@@ -24,11 +24,14 @@ hideSecondaryContainer();
 form.onsubmit = function(e){
     e.preventDefault();
     radioChoice = document.querySelector('input[type="radio"]:checked');
-    console.log(radioChoice.value);
     changeNumber();
     hideMainContainer();
     showSecondaryContainer();
-    chooseAOption()
+    submitButton.onclick = function(){
+        if (radioChoice.value === '' || radioChoice.value === null){
+            window.alert('Please choose an option');
+        }
+    }
 }
 
 //Change the number in the secondary container
@@ -55,15 +58,5 @@ function showSecondaryContainer(){
 }
 
 
-
-
-
-///This is where we left off RED EMOJI TO MAKE IT STAND OUT 🥊
-
-submitButton.onclick = function(){
-    if(radioChoices[i].checked === true){
-        window.alert('Please choose an option');
-    }     
-}
 
   
