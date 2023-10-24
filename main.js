@@ -13,6 +13,10 @@ let radioChoice;
 let userAnswer = document.getElementById('user-answer');
 
 
+//Part of what we're working on at the bottom of this page 🥊
+let submitButton = document.getElementsByClassName('submit-button');
+
+
 console.log(radioChoices);
 hideSecondaryContainer();
 
@@ -24,6 +28,7 @@ form.onsubmit = function(e){
     changeNumber();
     hideMainContainer();
     showSecondaryContainer();
+    chooseAOption()
 }
 
 //Change the number in the secondary container
@@ -48,3 +53,17 @@ function hideSecondaryContainer(){
 function showSecondaryContainer(){
     secondaryContainer[0].style.display = 'block';
 }
+
+
+
+
+
+///This is where we left off RED EMOJI TO MAKE IT STAND OUT 🥊
+
+submitButton.onclick = function(){
+    if(radioChoices[i].checked === true){
+        window.alert('Please choose an option');
+    }     
+}
+
+  
